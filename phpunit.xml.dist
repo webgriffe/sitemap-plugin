@@ -7,6 +7,9 @@
     <exclude>
       <directory>src/Resources</directory>
     </exclude>
+    <report>
+      <clover outputFile="coverage/lcov.info"/>
+    </report>
   </coverage>
   <php>
     <ini name="error_reporting" value="-1"/>
